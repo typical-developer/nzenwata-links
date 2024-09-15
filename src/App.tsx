@@ -33,7 +33,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Made by Pruthivi Thejan{" "}
+            Build Your Own{" "}
             <img
               src="./github.svg"
               alt="Github Logo"

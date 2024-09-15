@@ -6,6 +6,7 @@ export const slogan = {
   hightlight: "die trying",
 };
 
+// if you don't want to connect Google Analytics, comment this
 export const ga4 = "G-X2L97WZK07";
 
 export const Cards = [
@@ -29,13 +30,13 @@ export const Cards = [
     description:
       "Connect with me professionally and view my professional profile on LinkedIn.",
   },
-  // {
-  //   href: "https://www.threads.net/@pruthivithejan",
-  //   icon: "threads",
-  //   title: "Threads",
-  //   description:
-  //     "I post my designs, code snippets, and other content on Threads.",
-  // },
+  {
+    href: "https://www.threads.net/@pruthivithejan",
+    icon: "threads",
+    title: "Threads",
+    description:
+      "I post my designs, code snippets, and other content on Threads.",
+  },
   // {
   //   href: "https://www.instagram.com/pruthivithejan/",
   //   icon: "instagram",
@@ -56,10 +57,10 @@ export const Cards = [
       "Explore my learning projects and code contributions on GitLab.",
   },
   {
-    href: "https://open.spotify.com/user/cipqdclr942xwcn7tdeo14o06?si=14e86fca3b8e462d",
-    icon: "spotify",
-    title: "Spotify",
-    description: "Explore my curated playlists on Spotify.",
+    href: "https://layers.to/pruthivithejan",
+    icon: "layers",
+    title: "Layers",
+    description: "Showcasing component designs and fonts, gradients and more.",
   },
   {
     href: "https://dribbble.com/pruthivithejan",
@@ -75,18 +76,6 @@ export const Cards = [
       "Check out my design projects and creative works on Figma Community.",
   },
   {
-    href: "https://layers.to/pruthivithejan",
-    icon: "layers",
-    title: "Layers",
-    description: "Showcasing component designs and fonts, gradients and more.",
-  },
-  // {
-  //   href: "https://www.behance.net/pruthivithejan",
-  //   icon: "behance",
-  //   title: "Behance",
-  //   description: "Check out my design projects and creative works on Behance.",
-  // },
-  {
     href: "https://www.pinterest.com/pruthivithejan/",
     icon: "pinterest",
     title: "Pinterest",
@@ -98,10 +87,28 @@ export const Cards = [
     title: "Reddit",
     description: "Engage in discussions and share insights on Reddit.",
   },
+  // {
+  //   href: "https://www.behance.net/pruthivithejan",
+  //   icon: "behance",
+  //   title: "Behance",
+  //   description: "Check out my design projects and creative works on Behance.",
+  // },
   {
-    href: "https://t.me/pruthivithejan/",
-    icon: "telegram",
-    title: "Telegram",
-    description: "Connect with me on Telegram for quick chats.",
+    href: "https://open.spotify.com/user/cipqdclr942xwcn7tdeo14o06?si=14e86fca3b8e462d",
+    icon: "spotify",
+    title: "Spotify",
+    description: "Explore my curated playlists on Spotify.",
+  },
+  {
+    href: "mailto:pruthivi@pruthivithejan.me",
+    icon: "mail",
+    title: "Mail",
+    description: "Drop an email if you want to create something or collaborate.",
+  },
+  {
+    href: "https://buymeacoffee.com/pruthivithejan",
+    icon: "buymeacoffee",
+    title: "Buy Me a Coffee",
+    description: "You can appreciate my open source work by buying me a Coffee.",
   },
 ];
