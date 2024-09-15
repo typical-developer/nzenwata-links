@@ -1,64 +1,117 @@
-<h1 align="center">Links - Linktree Clone for Developers</h1>
+<h1 align="center">Links - A Linktree Clone for Developers</h1>
+
+## Introduction
+
+Welcome to Links, a Linktree clone designed specifically for
+developers. This project aims to provide a simple and
+customizable solution for creators to showcase their links on
+the web.
+
+## Preview
 
 <img src="public/preview/preview.png" alt="preview">
 
-## 📖 Make your own
+## Getting Started
 
-Prerequisites :
+### Prerequisites
 
-- Install [Git](https://git-scm.com/downloads).
-- [Nodejs](https://nodejs.org/en/) and [pnpm(recommended)](https://pnpm.io/installation) installed.
+* Install [Git](https://git-scm.com/downloads) on your machine.
+* Ensure you have [Node.js](https://nodejs.org/en/) and [pnpm
+(recommended)](https://pnpm.io/installation) installed.
 
-Steps :
+### Steps to Set Up the Project
 
-- Clone the repository, install the dependencies and start the application.
-
+1. Clone the repository:
 ```bash
 git clone https://github.com/pruthivithejan/links.git
+```
+2. Navigate into the project directory:
+```bash
 cd links
+```
+3. Install the dependencies using pnpm:
+```bash
 pnpm install
+```
+4. Start the application in development mode:
+```bash
 pnpm run dev
 ```
 
-This will start the project on your `localhost:5173`. Open the browser and see if it works.
+This will start the project on your `localhost:5173`. Open a
+web browser and navigate to `http://localhost:5173` to see if
+it works.
 
-- All you have to do is go to the `content.ts` file and replace everything with your information.
+## Configuration
 
-<img src="public/preview/content.png" alt="content file">
+### Content File
+
+To customize the content, please replace everything in the
+`content.ts` file with your information. [Image:
+Public/preview/content.png]
 
 ```typescript
-export const codeRepository = "linktree"; //This is pointed to this repository, if you fork your own you can point to that or leave this as it is.
-export const githubUsername = "pruthivithejan"; //*Required because the site will pull your Github avatar and use it on the website.
-export const heading = "Pruthivi Thejan | Linktree"; //This is the heading that shows in the browser tab.
+export const codeRepository = "linktree"; // Pointed to this
+repository, but you can fork your own and update it.
+export const githubUsername = "pruthivithejan"; // Required
+because the site will pull your Github avatar and use it on the
+website.
+export const heading = "Pruthivi Thejan | Linktree"; // This is
+the heading that shows in the browser tab.
 export const slogan = {
-  words: "I'll be myself or", //This is the slogan, put whatever you like.
-  hightlight: "die trying", //This part of the slogan will be highlighted.
+  words: "I'll be myself or", // Slogan, put whatever you like.
+  hightlight: "die trying", // Part of the slogan to highlight.
 };
 
 export const Cards = [
-{
-href: "https://x.com/pruthivithejan", //Change the link here to your liking.
-icon: "x", //Please check if the `public/` folder has the SVG to your link or place a one yourself, It must be a .svg file.
-title: "X", //Change the title to your liking.
-description: "I share thoughts and updates on various topics.", //Change the description to your liking.
-}, //...add more
-
+  {
+    href: "https://x.com/pruthivithejan", // Change the link
+here to your liking.
+    icon: "x", // Please check if the `public/` folder has the
+SVG to your link or place a one yourself, It must be a .svg
+file.
+    title: "X", // Change the title to your liking.
+    description: "I share thoughts and updates on various
+topics.", // Change the description to your liking.
+  },
+  // ... add more
 ```
 
-- Change the `meta` tags on index.html if needed.
-- Save, come back and see if the changes are made.
+## Additional Configuration
 
-- If you want any new Icons add them to `public` folder as SVGs. You can find SVG Icons [here](https://icon-sets.iconify.design/).
+* Change the `meta` tags on index.html if needed.
+* Save, come back, and see if the changes are made.
 
-- If you're not using a custom domain delete the `CNAME` file and add your repository name to `vite.config.ts` as `base: "/links/,`
+### Adding New Icons
 
-- Deploying is automatically set to GitHub Pages. make sure you [enable](https://docs.github.com/en/pages/quickstart) Github Pages for the repository.
-- Make sure these things are correct if not deployed
-  - https://stackoverflow.com/questions/74518887/blank-page-when-deploying-a-react-app-to-github-pages-and-vite
-  - https://stackoverflow.com/questions/77348361/resolved-github-pages-deployment-blank-vite-react-ts
+If you want any new icons, add them to the `public` folder as
+SVGs. You can find SVG icons
+[here](https://icon-sets.iconify.design/).
+
+### Custom Domain
+
+If you're not using a custom domain, delete the `CNAME` file
+and add your repository name to `vite.config.ts` as `base:
+"/links/,`
+
+## Deployment
+
+Deploying is automatically set to GitHub Pages. Make sure you
+[enable](https://docs.github.com/en/pages/quickstart) GitHub
+Pages for the repository.
+
+### Troubleshooting
+
+* If you're not seeing any content, make sure the following are
+correct:
+  -  https://stackoverflow.com/questions/74518887/blank-page-when-dhttps://stackoverflow.com/questions/74518887/blank-page-when-deploying-a-react-app-to-github-pages-and-vite
+  -  https://stackoverflow.com/questions/77348361/resolved-github-phttps://stackoverflow.com/questions/77348361/resolved-github-pages-deployment-blank-vite-react-ts
+
+## Contributing and Licensing
 
 ✨ Leave a Star on the repository if you like. ✨ <br>
 
-## 📄 License
+### License
 
-[MIT](./LICENSE.md) &copy; [Pruthivi Thejan](https://pruthivithejan.me/)
+[MIT](./LICENSE.md) &copy; [Pruthivi
+Thejan](https://pruthivithejan.me/)
