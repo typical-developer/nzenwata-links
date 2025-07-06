@@ -101,7 +101,7 @@ export const Cards = [
   }, */
   {
     href: "https://discord.gg/AJUzJ5dq",
-    icon: "streamline-logos--discord-logo-2-solid",
+    icon: "fontisto--discord",
     title: "Discord",
     description: "Connect with me on Discord if you’d like to collaborate.",
   },
