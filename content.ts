@@ -1,9 +1,9 @@
 export const codeRepository = "links";
-export const githubUsername = "pruthivithejan";
-export const heading = "Pruthivi Thejan | Links";
+export const githubUsername = "Chris-Error-404";
+export const heading = "Nzenwata Christopher | Links";
 export const slogan = {
-  words: "I'll be myself or",
-  hightlight: "die trying",
+  words: "I have no prime, I will evlove",
+  hightlight: "Forever",
 };
 
 // if you don't want to connect Google Analytics, comment this
@@ -11,45 +11,45 @@ export const ga4 = "G-X2L97WZK07";
 
 export const Cards = [
   {
-    href: "https://pruthivithejan.me/",
+    href: "https://nzenwata-christopher.vercel.app/",
     icon: "link",
     title: "Personal Website",
     description:
       "Explore more about me, my work, and my interests on my personal website.",
   },
   {
-    href: "https://x.com/pruthivithejan",
+    href: "https://x.com/Chris_Error_404",
     icon: "x",
     title: "X",
     description: "I share thoughts and updates on various topics.",
   },
   {
-    href: "https://lk.linkedin.com/in/pruthivithejan",
+    href: "https://www.linkedin.com/in/christopher-nzenwata-b52807334/",
     icon: "linkedin",
     title: "LinkedIn",
     description:
       "Connect with me professionally and view my professional profile on LinkedIn.",
   },
-  {
+/*   {
     href: "https://www.threads.net/@pruthivithejan",
     icon: "threads",
     title: "Threads",
     description:
       "I post my designs, code snippets, and other content on Threads.",
-  },
-  // {
-  //   href: "https://www.instagram.com/pruthivithejan/",
-  //   icon: "instagram",
-  //   title: "Instagram",
-  //   description: "I showcase my photography and life moments here.",
-  // },
+  }, */
+ {
+   href: "https://www.instagram.com/typicaldeveloper",
+   icon: "instagram",
+   title: "Instagram",
+   description: "I showcase my photography and life moments here.",
+ },
   {
-    href: "https://github.com/pruthivithejan",
+    href: "https://github.com/Chris-Error-404",
     icon: "github",
     title: "GitHub",
     description: "Find my coding projects and contributions on GitHub.",
   },
-  {
+/*   {
     href: "https://gitlab.com/pruthivithejan",
     icon: "gitlab",
     title: "GitLab",
@@ -98,17 +98,23 @@ export const Cards = [
     icon: "spotify",
     title: "Spotify",
     description: "Explore my curated playlists on Spotify.",
+  }, */
+  {
+    href: "https://discord.gg/AJUzJ5dq",
+    icon: "streamline-logos--discord-logo-2-solid",
+    title: "Discord",
+    description: "Connect with me on Discord if you’d like to collaborate.",
   },
   {
-    href: "mailto:pruthivi@pruthivithejan.me",
+    href: "mailto:nzenwatachristopher186@gmail.com",
     icon: "mail",
     title: "Mail",
     description: "Drop an email if you want to create something or collaborate.",
   },
   {
-    href: "https://buymeacoffee.com/pruthivithejan",
-    icon: "buymeacoffee",
-    title: "Buy Me a Coffee",
-    description: "You can appreciate my open source work by buying me a Coffee.",
+  href: "https://bscscan.com/address/0xda96af1b453c6848f4a7421e525d4610d40de9d8",
+  icon: "bitcoin",
+  title: "Bitcoin Wallet",
+  description: "I am truly grateful for any support (BEP-20) BTC."
   },
 ];
