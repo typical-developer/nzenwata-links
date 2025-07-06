@@ -19,7 +19,7 @@ the web.
 * Ensure you have [Node.js](https://nodejs.org/en/) and [pnpm
 (recommended)](https://pnpm.io/installation) installed.
 
-### Steps to Set Up the Project
+### Steps to Set Up the Project.
 
 1. Clone the repository:
 ```bash
