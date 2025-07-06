@@ -115,6 +115,6 @@ export const Cards = [
   href: "https://bscscan.com/address/0xda96af1b453c6848f4a7421e525d4610d40de9d8",
   icon: "bitcoin",
   title: "Bitcoin Wallet",
-  description: "I am truly grateful for any support (BEP-20) BTC."
+  description: "Grateful for any support (BEP-20) BTC."
   },
 ];
