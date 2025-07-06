@@ -2,8 +2,8 @@ export const codeRepository = "links";
 export const githubUsername = "Chris-Error-404";
 export const heading = "Nzenwata Christopher | Links";
 export const slogan = {
-  words: "I have no prime, I will evlove",
-  hightlight: "Forever",
+  words: "Let's",
+  hightlight: "Connect!",
 };
 
 // if you don't want to connect Google Analytics, comment this
