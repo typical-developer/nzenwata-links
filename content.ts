@@ -12,7 +12,7 @@ export const ga4 = "G-X2L97WZK07";
 export const Cards = [
   {
     href: "https://nzenwata-christopher.vercel.app/",
-    icon: "link",
+    icon: "portfolio",
     title: "Personal Website",
     description:
       "Explore more about me, my work, and my interests on my personal website.",
@@ -24,7 +24,7 @@ export const Cards = [
     description: "I share thoughts and updates on various topics.",
   },
   {
-    href: "https://www.linkedin.com/in/christopher-nzenwata-b52807334/",
+    href: "https://www.linkedin.com/in/christopher-nzenwata-685572377",
     icon: "linkedin",
     title: "LinkedIn",
     description:
@@ -101,7 +101,7 @@ export const Cards = [
   }, */
   {
     href: "https://discord.gg/AJUzJ5dq",
-    icon: "fontisto--discord",
+    icon: "discord",
     title: "Discord",
     description: "Connect with me on Discord if you’d like to collaborate.",
   },
