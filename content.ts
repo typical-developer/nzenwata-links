@@ -23,12 +23,7 @@ export const Cards = [
     title: "X",
     description: "I share thoughts and updates on various topics.",
   },
-  {
-<<<<<<< HEAD
-    href: "https://www.linkedin.com/in/christopher-nzenwata-685572377",
-=======
-    href: "https://www.linkedin.com/in/christopher-nzenwata-685572377/",
->>>>>>> 97efeb2aff8e8aacf1aa8333f71d7fe647f3a60f
+  { href: "https://www.linkedin.com/in/christopher-nzenwata-685572377/",
     icon: "linkedin",
     title: "LinkedIn",
     description:
