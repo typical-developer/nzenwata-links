@@ -18,10 +18,16 @@ export const Cards = [
       "Explore more about me, my work, and my interests on my personal website.",
   },
   {
-    href: "https://x.com/Chris_Error_404",
-    icon: "x",
-    title: "X",
-    description: "I share thoughts and updates on various topics.",
+    href: "mailto:nzenwatachristopher186@gmail.com",
+    icon: "mail",
+    title: "Mail",
+    description: "Drop an email if you want to create something or collaborate.",
+  },
+  {
+    href: "https://github.com/Chris-Error-404",
+    icon: "github",
+    title: "GitHub",
+    description: "Find my coding projects and contributions on GitHub.",
   },
   { href: "https://www.linkedin.com/in/christopher-nzenwata-685572377/",
     icon: "linkedin",
@@ -36,18 +42,18 @@ export const Cards = [
     description:
       "I post my designs, code snippets, and other content on Threads.",
   }, */
- {
+  {
+    href: "https://x.com/Chris_Error_404",
+    icon: "x",
+    title: "X",
+    description: "I share thoughts and updates on various topics.",
+  },
+   {
    href: "https://www.instagram.com/typicaldeveloper",
    icon: "instagram",
    title: "Instagram",
    description: "I showcase my photography and life moments here.",
  },
-  {
-    href: "https://github.com/Chris-Error-404",
-    icon: "github",
-    title: "GitHub",
-    description: "Find my coding projects and contributions on GitHub.",
-  },
 /*   {
     href: "https://gitlab.com/pruthivithejan",
     icon: "gitlab",
@@ -99,16 +105,28 @@ export const Cards = [
     description: "Explore my curated playlists on Spotify.",
   }, */
   {
-    href: "https://discord.gg/AJUzJ5dq",
+    href: "https://discord.gg/9ZgcVfhvfD",
     icon: "discord",
     title: "Discord",
     description: "Connect with me on Discord if you’d like to collaborate.",
   },
   {
-    href: "mailto:nzenwatachristopher186@gmail.com",
-    icon: "mail",
-    title: "Mail",
-    description: "Drop an email if you want to create something or collaborate.",
+    href: "https://stackoverflow.com/users/28486191/christopher-nzenwata",
+    icon: "stack-overflow",
+    title: "Stack Overflow",
+    description: "Check out my answers on Stack Overflow.",
+  },
+  {
+    href: "https://youtube.com/@typicaldeveloper?si=COLmKhgca8dYg_CB",
+    icon: "youtube",
+    title: "Youtube",
+    description: "Watch me on YouTube.",
+  },
+  {
+    href: "https://www.tiktok.com/@typical_developer?_t=ZS-8zQOXgYwqON&_r=1",
+    icon: "tiktok",
+    title: "TikTok",
+    description: "Follow me on TikTok for engaging content.",
   },
   {
   href: "https://bscscan.com/address/0xda96af1b453c6848f4a7421e525d4610d40de9d8",
