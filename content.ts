@@ -1,5 +1,5 @@
 export const codeRepository = "links";
-export const githubUsername = "Chris-Error-404";
+export const githubUsername = "typical-developer";
 export const heading = "Nzenwata Christopher | Links";
 export const slogan = {
   words: "Let's",
