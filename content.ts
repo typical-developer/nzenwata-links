@@ -35,13 +35,20 @@ export const Cards = [
     description:
       "Connect with me professionally and view my professional profile on LinkedIn.",
   },
-/*   {
-    href: "https://www.threads.net/@pruthivithejan",
-    icon: "threads",
-    title: "Threads",
+  {
+    href: "https://medium.com/@typicaldeveloper",
+    icon: "medium",
+    title: "Medium",
     description:
-      "I post my designs, code snippets, and other content on Threads.",
-  }, */
+      "Feel free to read some of my articles and stories",
+  },
+  {
+    href: "https://medium.com/@typicaldeveloper",
+    icon: "dailydev",
+    title: "Daily dev",
+    description:
+      "Read some of my more technical articles and stories.",
+  },
   {
     href: "https://x.com/Chris_Error_404",
     icon: "x",
