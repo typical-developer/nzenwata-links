@@ -50,7 +50,7 @@ export const Cards = [
       "Read some of my more technical articles and stories.",
   },
   {
-    href: "https://x.com/Chris_Error_404",
+    href: "https://x.com/typicaldevelopr",
     icon: "x",
     title: "X",
     description: "I share thoughts and updates on various topics.",
