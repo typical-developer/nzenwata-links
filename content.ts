@@ -24,7 +24,7 @@ export const Cards = [
     description: "Drop an email if you want to create something or collaborate.",
   },
   {
-    href: "https://github.com/Chris-Error-404",
+    href: "https://github.com/typicaldevelopr",
     icon: "github",
     title: "GitHub",
     description: "Find my coding projects and contributions on GitHub.",
