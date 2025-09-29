@@ -43,7 +43,7 @@ export const Cards = [
       "Feel free to read some of my articles and stories",
   },
   {
-    href: "https://medium.com/@typicaldeveloper",
+    href: "https://app.daily.dev/typicaldeveloper",
     icon: "dailydev",
     title: "Daily dev",
     description:
