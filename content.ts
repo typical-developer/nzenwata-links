@@ -29,7 +29,7 @@ export const Cards = [
     title: "GitHub",
     description: "Find my coding projects and contributions on GitHub.",
   },
-  { href: "https://www.linkedin.com/in/christopher-nzenwata-685572377/",
+  { href: "https://www.linkedin.com/in/chimobi-nzenwata-447801391/",
     icon: "linkedin",
     title: "LinkedIn",
     description:
